@@ -30,7 +30,7 @@ h1{
     padding: 50px;
 }
 .top-banner{
-    background-image: url(images/cooc.jpg);
+    background-image: url(images/coc.jpg);
     height: 577px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,9 +52,49 @@ section{
 /* above code for first part */
 
 .dream-area{
-    background-image: url(images/coc.jpg);
-    background-repeat: no-repeat;
+    background-image: url(images/new.jpg);
+    /* background-repeat: no-repeat; */
     /* background-position: right; */
     background-size: cover;
-    height: 730px;
+    height: 700px;
+    margin-bottom: 0px;
+}
+
+.ex-color{
+    color: hotpink;
+    margin: 50px;
+}
+h2{
+    color: orange;
+}
+h3{
+    color: tomato;
+}
+
+
+.experience-area{
+    background-image: url(images/coc.jpg);
+    background-size: cover; 
+   
+    margin-top: 60px;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 7px;
+    height: 55%;
+    
+   
+
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,red, tomato);
+    border-image-slice: 1;
+
+}
+#Nobe-web{
+    border-left:7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+
 }
