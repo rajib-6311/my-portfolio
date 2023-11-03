@@ -6,13 +6,18 @@ body{
 
 h1{
     font-size: 50px;
+    color: hotpink;
+    
 }
 .name-color{
     color: skyblue;
 }
 .h3-color{
-    color: white;
+    color: rgb(20, 156, 209);
     font-size: 20px;
+}
+.p-color{
+    color: black;
 }
 .half-width{
     width: 40%;
@@ -22,13 +27,18 @@ h1{
 }
 .half-width img{
     width: 100%;
+    padding: 50px;
 }
 .top-banner{
-    background-image: url(images/imga.jpeg);
+    background-image: url(images/cooc.jpg);
+    height: 577px;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 section{
-    height: 650px;
+    height: 598px;
+    /* padding-bottom: 520px;
+    margin-bottom: 120px; */
 }
 .link-button{
     text-decoration: none;
@@ -37,4 +47,14 @@ section{
     border-radius: 10px;
     color: white;
     font-weight: 700px;
+}
+
+/* above code for first part */
+
+.dream-area{
+    background-image: url(images/coc.jpg);
+    background-repeat: no-repeat;
+    /* background-position: right; */
+    background-size: cover;
+    height: 730px;
 }
